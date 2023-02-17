@@ -1,0 +1,92 @@
+﻿Build started 2/14/2023 5:09:37 PM.
+     1>Project "C:\Users\Dell\Desktop\src\vc10\theforgottenserver.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\theforgottenserver.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /MP /Ox /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D __PROTOCOL_77__ /D __ENABLE_SERVER_DIAGNOSTIC__ /D __EXCEPTION_TRACER__ /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ..\player.cpp /O2 /MD 
+         player.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dell\Desktop\src\vc10\x64\Release\theforgottenserver.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib lua5.1.lib libxml2.lib mpir.lib sqlite.lib iconv.lib libmysql.lib libeay32.lib dbghelp.lib /MANIFEST /ManifestFile:"x64\Release\theforgottenserver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Dell\Desktop\src\vc10\x64\Release\theforgottenserver.pdb" /SUBSYSTEM:CONSOLE /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dell\Desktop\src\vc10\x64\Release\theforgottenserver.lib" /MACHINE:X64 x64\Release\theforgottenserver1.res
+         x64\Release\actions.obj
+         x64\Release\baseevents.obj
+         x64\Release\beds.obj
+         x64\Release\chat.obj
+         x64\Release\combat.obj
+         x64\Release\condition.obj
+         x64\Release\configmanager.obj
+         x64\Release\connection.obj
+         x64\Release\container.obj
+         x64\Release\creature.obj
+         x64\Release\creatureevent.obj
+         x64\Release\cylinder.obj
+         x64\Release\database.obj
+         x64\Release\databasemanager.obj
+         x64\Release\databasemysql.obj
+         x64\Release\depot.obj
+         x64\Release\dispatcher.obj
+         x64\Release\exception.obj
+         x64\Release\fileloader.obj
+         x64\Release\game.obj
+         x64\Release\gameservers.obj
+         x64\Release\globalevent.obj
+         x64\Release\group.obj
+         x64\Release\house.obj
+         x64\Release\housetile.obj
+         x64\Release\ioban.obj
+         x64\Release\ioguild.obj
+         x64\Release\iologindata.obj
+         x64\Release\iomap.obj
+         x64\Release\iomapserialize.obj
+         x64\Release\item.obj
+         x64\Release\itemattributes.obj
+         x64\Release\items.obj
+         x64\Release\luascript.obj
+         x64\Release\mailbox.obj
+         x64\Release\map.obj
+         x64\Release\monster.obj
+         x64\Release\monsters.obj
+         x64\Release\movement.obj
+         x64\Release\networkmessage.obj
+         x64\Release\npc.obj
+         x64\Release\otpch.obj
+         x64\Release\otserv.obj
+         x64\Release\outfit.obj
+         x64\Release\outputmessage.obj
+         x64\Release\party.obj
+         x64\Release\player.obj
+         x64\Release\position.obj
+         x64\Release\protocol.obj
+         x64\Release\protocolgame.obj
+         x64\Release\protocollogin.obj
+         x64\Release\raids.obj
+         x64\Release\scheduler.obj
+         x64\Release\scriptmanager.obj
+         x64\Release\server.obj
+         x64\Release\spawn.obj
+         x64\Release\spells.obj
+         x64\Release\status.obj
+         x64\Release\talkaction.obj
+         x64\Release\teleport.obj
+         x64\Release\textlogger.obj
+         x64\Release\thing.obj
+         x64\Release\tile.obj
+         x64\Release\tools.obj
+         x64\Release\trashholder.obj
+         x64\Release\vocation.obj
+         x64\Release\waitlist.obj
+         x64\Release\weapons.obj
+         Generating code
+         Finished generating code
+         theforgottenserver.vcxproj -> C:\Users\Dell\Desktop\src\vc10\x64\Release\theforgottenserver.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Dell\Desktop\src\vc10\x64\Release\theforgottenserver.exe;#1" /manifest x64\Release\theforgottenserver.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\theforgottenserver.unsuccessfulbuild".
+         Touching "x64\Release\theforgottenserver.lastbuildstate".
+     1>Done Building Project "C:\Users\Dell\Desktop\src\vc10\theforgottenserver.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:17.47
